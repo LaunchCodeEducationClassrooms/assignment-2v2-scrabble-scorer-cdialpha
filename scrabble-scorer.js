@@ -99,7 +99,7 @@ return letterPoints;
 const scoringAlgorithms = [ 
   {name:'Simple Scorer',
   description:'Each letter is worth 1 point',  
-  scorerFunction: simpleScore },
+  scorerFunction: simpleScore},
 
   {name:'Bonus Vowels',
   description: 'Vowels are 3 pts, consonants are 1 pt.',
@@ -107,11 +107,7 @@ const scoringAlgorithms = [
 
   {name:'Scrabble NEW!',
   description: 'The traditional scoring algorithm REVAMPED!',
-  scorerFunction: scrabbleScore},
-  
-  //{name:'Scrabble',
-  //description: 'The traditional scoring algorithm.',
-  //scorerFunction: oldScrabbleScore }
+  scorerFunction: scrabbleScore}
 ]
 
 //This Function asks the User for a Word
