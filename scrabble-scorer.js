@@ -109,9 +109,9 @@ const scoringAlgorithms = [
   description: 'The traditional scoring algorithm REVAMPED!',
   scorerFunction: scrabbleScore},
   
-  {name:'Scrabble',
-  description: 'The traditional scoring algorithm.',
-  scorerFunction: oldScrabbleScore }
+  //{name:'Scrabble',
+  //description: 'The traditional scoring algorithm.',
+  //scorerFunction: oldScrabbleScore }
 ]
 
 //This Function asks the User for a Word
